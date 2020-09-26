@@ -1,0 +1,172 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/templates/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+ *{
+    margin:0px;
+}
+
+/*body {
+ 
+ background-color:white;
+ height:auto;
+ margin: 0.5px auto;
+}*/
+
+body {
+ 
+ background-color:white;
+ 
+}
+
+.bodydiv{
+
+      height:auto;
+      width:98.5%;
+      margin: 0.5px auto;
+
+    }
+
+nav{
+  	color:   000000; 
+    opacity: 0.5;
+
+
+}
+nav:hover{
+	opacity: 0.9;
+	color: #FFFFFF; 
+}
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+.mysizingforcontainer{
+
+				width: 100%;
+  				height: 20%;
+					}
+/*.mycollapsecontainer{  width: 50%;
+  				height: 30%;   }	*/				
+.xcard{ font-size: 20%;   }
+
+    /*acordion adjustment */
+    .well{
+    	width: 70%;
+  				height: 200px; 
+    }
+
+
+     /*beginning of code for accordion */
+    .collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-radius:10px;
+  margin-bottom:10px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  /*shadow begins*/
+    box-shadow: 0 2px 5px 0  
+    rgba(0, 0, 0, 0.5), 0  
+    2px 10px 0 rgba(0, 0, 0, 1); 
+        /*shadow ends*/
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  margin-bottom:20px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+   /*end of collapse and its content*/
+
+
+   /*subscribecol at latest news */
+   .subscribecol{
+   			width:200px;
+   			height:80px;
+   }
+
+	.bfsubscribecol{
+
+	}
+							           }
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+
+     /*beginning of code for accordion */
+    .collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-radius:10px;
+  margin-bottom:7px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  /*shadow begins*/
+    box-shadow: 0 2px 5px 0  
+    rgba(0, 0, 0, 0.5), 0  
+    2px 10px 0 rgba(0, 0, 0, 1); 
+        /*shadow ends*/
+}
+ /*collapse */
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  margin-bottom:15px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+   /*end of collapse and its content*/
+
+      /*our services column*/
+
+      .servicealign{
+            margin-left:20px;
+
+      }
+
+        /*Latest news */
+        .mybottombuttonalign{
+                width:50px;
+                height:20px;
+        }
+
+
+
+}
